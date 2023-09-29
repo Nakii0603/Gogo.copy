@@ -1,0 +1,31 @@
+nav {
+    justify-content: space-between;
+    margin: 20px 0;
+}
+nav .left {
+    width: 730px;
+}
+nav:nth-child(0) p,
+a {
+    font-size: 18px;
+    font-weight: 900;
+}
+nav .right>div{
+    width: 85px;
+}
+nav .right span{
+    height: 40px;
+    width: 60px;
+}
+nav .right>div :nth-child(1) {
+    font-size: 12px;
+    margin: 0;
+}
+nav .right>div span p {
+    font-size: 18px;
+    margin: 0;
+}
+.greenText {
+    color: #2adb00;
+    font-size: 20px !important;
+}
