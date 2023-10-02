@@ -1,0 +1,56 @@
+.story {
+    overflow: hidden;
+    position: relative;
+}
+
+.story:hover>img {
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.story:hover>p {
+    opacity: 1;
+}
+
+.story p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+
+
+
+ 
+.darker {
+    width: 280px;
+    height: 180px;
+    background-color: black;
+    opacity: 0;
+    color: white;
+}
+
+.hoverloh:hover .darker {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.top0 {
+    top: 0;
+}
+
+.center-1 {
+    top: 45%;
+    left: 45%;
+}
+
+.s3 article {
+    overflow: hidden;
+}
+
+.s3 article .hoverloh:hover>img {
+    transform: scale(1.1);
+    transition: 200ms;
+    overflow: hidden;
+}

@@ -54,12 +54,15 @@ a{
 .bgColorS1{
     background: linear-gradient(180deg,#fff,#f7f7f7);
     width: 100vw;
+}
+.comment {
+    justify-content: space-between;
+    width: 90px;
 
 }
-/* .flex-even{
-    display: flex;
-    justify-content: space-evenly;
-} */
+.comment p{
+    font-size: 14px;
+}
 .container{
     width: 1170px;
 }

@@ -10,20 +10,19 @@
     width: 100px;
     color: white;
 }
+
 /* <-------------------------------> */
 .s1-img {
     width: 570px;
 }
+
 .s1 article {
-    width: 270px;
-}
-.s1 article img {
-    height: 170px;
-    width: 270px;
+    width: 300px;
 }
 
-.s1 article :first-child{
+.s1 .article-img {
     height: 170px;
+    width: 270px;
 }
 
 .s1 .scroll {
@@ -39,12 +38,15 @@
     height: 37px;
     justify-content: space-evenly;
 }
-.s1 .share{
+
+.s1 .share {
     background: #f0efef;
     border-radius: 30px;
 }
 
-
+.s1 h1 {
+    width: 90%;
+}
 
 /* <-------------------------------> */
 .story {
@@ -101,10 +103,21 @@ hr {
     margin: 0 20px;
 }
 
-.s3 article img {
+.s3 article>img {
     width: 250px;
     height: 180px;
     padding-right: 30px;
+}
+
+.hoverloh img {
+    width: 280px;
+    height: 180px;
+    padding-right: 30px;
+
+}
+
+.s3 article h3 {
+    font-size: 19px;
 }
 
 .moreNews {
@@ -116,10 +129,10 @@ hr {
 /* <----------------aside---------------> */
 aside .article {
     width: 290px;
-    height: 265px;
+    height: 300px;
 }
 
-aside .article img {
+aside .article .card-img-aside {
     width: 290px;
     height: 170px;
 }
@@ -168,13 +181,13 @@ aside .bgColorBeige p {
 }
 
 /* <-------------s5------------------> */
-.s5 .card img {
+.s5 .card :nth-child(0) img {
     width: 280px;
     height: 360px;
 }
 
 .s5 .card {
-    width: 282px;
+    width: 280px;
     height: 360px;
     margin-right: 15px;
     border: 1px solid gainsboro;
@@ -185,10 +198,11 @@ aside .bgColorBeige p {
 }
 
 /* <-------------s6------------------> */
-.s6 .card img {
+.card-img {
     width: 280px;
     height: 360px;
 }
+
 
 .s6 .card {
     width: 280px;
@@ -219,7 +233,8 @@ aside .bgColorBeige p {
     width: 100vw;
 }
 
-.s8 img {
+
+.card-img-8 {
     width: 260px;
     height: 170px;
 }
@@ -227,4 +242,9 @@ aside .bgColorBeige p {
 /* <-----------footer----------------> */
 footer a {
     color: black;
+}
+
+.border {
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
