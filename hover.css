@@ -1,56 +1,119 @@
-.story {
-    overflow: hidden;
-    position: relative;
-}
+
 
 .story:hover>img {
     transform: scale(1.1);
-    transition: 200ms;
+    transition: 400ms;
 }
-
+/* 
 .story:hover>p {
     opacity: 1;
-}
+} */
 
-.story p {
+/* .story p {
     position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+} */
+.darkerS1{
+    background-color: rgba(32, 32, 32, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
     top: 0;
     left: 0;
     opacity: 0;
 }
 
-
-
-
- 
-.darker {
-    width: 280px;
-    height: 180px;
-    background-color: black;
-    opacity: 0;
-    color: white;
-}
-
-.hoverloh:hover .darker {
-    opacity: 0.5;
+ .s1 .right {
+    overflow: hidden;
+    position: relative;
+    height: 430px;
+  }
+  .s1 .right:hover img {
     transform: scale(1.1);
-    transition: 200ms;
-}
+    transition: 400ms`;
+  }
+  .s1 .right:hover > .darkerS1 {
+    opacity: 1;
+  }
+
+  .s1-img{
+    background-color: rgba(32, 32, 32, 0.3);
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+  }
+
+
+/* <---------------------> */
+.s1Hover {
+    width: 270px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+  }
+  .s1Hover:hover > img {
+    transform: scale(1.1);
+    transition: 400ms;
+  }
+  .s1Hover:hover > .darker {
+    opacity: 1;
+  }
+
+  .s1 .darker{
+    background-color: rgba(32, 32, 32, 0.3);
+    width: 270px;
+    height: 170px;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+ /* <---------------------> */
 .top0 {
     top: 0;
 }
 
 .center-1 {
-    top: 45%;
-    left: 45%;
+    top: 40%;
+    left: 40%;
 }
 
-.s3 article {
+ .hoverloh {
     overflow: hidden;
+    position: relative;
+    height: 150px;
+    width: 210px;
 }
 
-.s3 article .hoverloh:hover>img {
+ .hoverloh:hover>img {
     transform: scale(1.1);
-    transition: 200ms;
-    overflow: hidden;
+    transition: 400ms;
 }
+
+.hoverloh:hover>  .darker {
+    opacity: 1;
+    transition: 400ms;
+}
+
+.s3 article  .darker {
+    background-color: rgba(32, 32, 32, 0.3);
+    position: absolute;
+    width: 210px;
+    height: 150px;
+    color: white;
+    opacity: 0;
+}
+.s3 aside .darker {
+    background-color: rgba(32, 32, 32, 0.3);
+    position: absolute;
+    width: 270px;
+    height: 170px;
+    color: white;
+    opacity: 0;
+}
+/* <---------------------> */

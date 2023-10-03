@@ -1,68 +1,89 @@
-@font-face{
-    font-family:Arial, Helvetica, sans-serif ;
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
     src: url(./fonts/Helvetica\ Neue\ LTW0697BlkCnObl.ttf);
 }
 
-body{
+body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.center{
+
+.center {
     justify-content: center;
     align-items: center;
 }
-.ctr-column{
+
+.ctr-column {
     align-items: center;
 }
-.ctr-row{
+
+.ctr-row {
     justify-content: center;
 }
 
-.column{
+.column {
     flex-direction: column;
 }
-.gap-30{
+
+.gap-30 {
     gap: 30px;
 }
-.gap-50{
+
+.gap-50 {
     gap: 50px;
 }
-.gap-55{
+
+.gap-55 {
     gap: 55px;
 }
-.gap-40{
+
+.gap-40 {
     gap: 55px;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.absolute{
+
+.absolute {
     position: absolute;
 }
-.relative{
+
+.z-10 {
+    z-index: 10;
+}
+
+.relative {
     position: relative;
 }
-.padding30{
+
+.padding30 {
     padding-bottom: 30px;
 }
-.bgColorS1{
-    background: linear-gradient(180deg,#fff,#f7f7f7);
+
+.bgColorS1 {
+    background: linear-gradient(180deg, #fff, #f7f7f7);
     width: 100vw;
 }
+
 .comment {
     justify-content: space-between;
     width: 90px;
 
 }
-.comment p{
+
+.comment p {
     font-size: 14px;
 }
-.container{
+
+.container {
     width: 1170px;
 }

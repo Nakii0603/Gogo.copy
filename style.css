@@ -15,6 +15,16 @@
 .s1-img {
   width: 570px;
 }
+.s1 .right{
+  width: 570px;
+}
+.s1 .left{
+  width: 570px;
+}
+
+.s1> :first-child {
+  margin-bottom: 40px;
+}
 
 .s1 article {
   width: 300px;
@@ -22,7 +32,7 @@
 
 .s1 .article-img {
   height: 170px;
-  width: 270px;
+  width: 273px;
 }
 
 .s1 .scroll {
@@ -52,21 +62,43 @@
 .story {
   width: 170px;
   position: relative;
+  overflow: hidden;
 }
+
 
 .story img {
   width: 170px;
   height: 230px;
 }
 
-.s2 :last-child p {
+.story--card-information {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.story--card-information p {
+  color: white;
+  overflow: hidden;
+  height: 30px;
+}
+
+.story:hover p {
+  height: 120px;
+  transition: 500ms ;
+}
+
+/* .s2 :last-child p {
   position: absolute;
   top: 50%;
   color: white;
-}
+} */
 
-.story img:last-child {
+.story .logo {
   width: 30px;
+  height: 30px ;
   left: 0;
 }
 
@@ -76,6 +108,23 @@
   height: 10px;
   border-radius: 30px;
   background-color: rgb(199, 198, 198);
+}
+
+.s3 article {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s3 article .left {
+  width: 70%;
+}
+
+.s3 article h3 {
+  margin: 5px;
+}
+
+.s3 article p {
+  margin: 5px;
 }
 
 .s3 .calendar {
@@ -91,6 +140,7 @@
 
 .date {
   width: 800px;
+  margin-bottom: 20px;
   justify-content: space-between;
 }
 
@@ -100,12 +150,6 @@
 
 hr {
   margin: 0 20px;
-}
-
-.s3 article > img {
-  width: 250px;
-  height: 180px;
-  padding-right: 30px;
 }
 
 .hoverloh img {
