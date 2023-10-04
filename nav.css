@@ -1,5 +1,4 @@
 nav {
-    justify-content: space-between;
     margin: 20px 0;
 }
 nav .left {
@@ -28,4 +27,7 @@ nav .right>div span p {
 .greenText {
     color: #2adb00;
     font-size: 20px !important;
+}
+nav .bar {
+    width: 100%;
 }

@@ -12,19 +12,20 @@
 </head>
 
 <body class="center flex column">
-  <nav class="flex container ctr-column">
+  <nav class="flex container ctr-column start">
     <div class="flex left ctr-column justify-between">
       <img src="https://mgl.gogo.mn/newsn/v4/images/gogo-logo.345096b3.png" width="119" alt="gogo logo" />
-      <a class="clr-black" href="">Мэдээ</a>
-      <a class="clr-black" href="">GoGo булан</a>
-      <a class="clr-black" href="">Үзэх</a>
-      <a class="clr-black" href="">Хэв маяг</a>
-      <a class="clr-black" href="">English</a>
-
-      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search">
-        <circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle>
-        <path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path>
-      </svg>
+      <div class="justify-between flex bar">
+        <a class="clr-black" href="">Мэдээ</a>
+        <a class="clr-black" href="">GoGo булан</a>
+        <a class="clr-black" href="">Үзэх</a>
+        <a class="clr-black" href="">Хэв маяг</a>
+        <a class="clr-black" href="">English</a>
+        <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="search">
+          <circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7"></circle>
+          <path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z"></path>
+        </svg>
+      </div>
     </div>
 
     <div class="flex right gap-30">
@@ -52,7 +53,6 @@
       </div>
     </div>
   </nav>
-  <!------------section1-------------->
   <div class="flex ctr-row bgColorS1">
     <section class="container s1">
       <div>
@@ -96,9 +96,9 @@
               class="uk-transition-scale-up uk-transition-opaque lazy-image highlight-news-img uk-transition-scale-up uk-transition-opaque"
               data-src="https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2023/09/310315-02092023-1693666522-334140039-21.jpg"
               lazy="loaded" />
-              <div class="absolute top0 darkerS1">
-                <p class="absolute center-1">Унших &#8594;</p>
-              </div>
+            <div class="absolute top0 darkerS1">
+              <p class="absolute center-1">Унших &#8594;</p>
+            </div>
           </div>
         </div>
       </div>
@@ -189,89 +189,82 @@
       </div>
     </section>
   </div>
-  <!-- ----------section2------------ -->
 
-  <section class="s2">
+
+  <section class="s2 container">
     <div>
       <p>GoGo<span>СТОРИ</span></p>
     </div>
     <div class="story-card gap-30 flex">
-      <div class="story ">
-        <img src="https://mgl.gogo.mn/newsn/story/munkhsaruul2023-65117556be8b2558587476.png"
-          alt="25 хүнийг хилээр гарган, хүн худалдаалах хэргийн хохирогч болгох гэж байхад нь таньж тогтоосон"
-          class=""/>
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p>
-            25 хүнийг хилээр гарган, хүн худалдаалах хэргийн хохирогч болгох гэж
-            байхад нь таньж тогтоосон
-          </p>
+        <div class="story ">
+          <img src="https://mgl.gogo.mn/newsn/story/munkhsaruul2023-65117556be8b2558587476.png"
+            alt="25 хүнийг хилээр гарган, хүн худалдаалах хэргийн хохирогч болгох гэж байхад нь таньж тогтоосон"
+            class="" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p>
+              25 хүнийг хилээр гарган, хүн худалдаалах хэргийн хохирогч болгох гэж
+              байхад нь таньж тогтоосон
+            </p>
+          </div>
         </div>
-      </div>
-    <div class="story-card gap-30 flex">
-      <div class="story ">
-        <img
-        src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
-        alt="ФОТО: Автомашингүй өдөр" />
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p class="">
-            Оросын дунд сургуулиудад цэргийн хичээл зааж байна
-          </p>
+        <div class="story ">
+          <img
+            src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
+            alt="ФОТО: Автомашингүй өдөр" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p class="">
+              Оросын дунд сургуулиудад цэргийн хичээл зааж байна
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="story ">
-        <img
-        src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
-        alt="ФОТО: Автомашингүй өдөр" />
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p class="">
-            Оросын дунд сургуулиудад цэргийн хичээл зааж байна
-          </p>
+        <div class="story ">
+          <img
+            src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
+            alt="ФОТО: Автомашингүй өдөр" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p class="">
+              Оросын дунд сургуулиудад цэргийн хичээл зааж байна
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="story ">
-        <img
-        src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
-        alt="ФОТО: Автомашингүй өдөр" />
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p class="">
-            Оросын дунд сургуулиудад цэргийн хичээл зааж байна
-          </p>
+        <div class="story ">
+          <img
+            src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
+            alt="ФОТО: Автомашингүй өдөр" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p class="">
+              Оросын дунд сургуулиудад цэргийн хичээл зааж байна
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="story ">
-        <img
-        src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
-        alt="ФОТО: Автомашингүй өдөр" />
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p class="">
-            Оросын дунд сургуулиудад цэргийн хичээл зааж байна
-          </p>
+        <div class="story ">
+          <img
+            src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
+            alt="ФОТО: Автомашингүй өдөр" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p class="">
+              Оросын дунд сургуулиудад цэргийн хичээл зааж байна
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="story ">
-        <img
-        src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
-        alt="ФОТО: Автомашингүй өдөр" />
-        <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
-          <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
-          <p class="">
-            Оросын дунд сургуулиудад цэргийн хичээл зааж байна
-          </p>
-        </div>
-      </div>
-
-
-      
-      
-      
-    </div>
+        <div class="story ">
+          <img
+            src="https://mgl.gogo.mn/newsn/story/meddeg-medeeldeg-baiy-avtomashingui-6-165706-1713335784-651152bb77b28731361084.jpeg"
+            alt="ФОТО: Автомашингүй өдөр" />
+          <div class="story--card-information absolute z-10" style="top: 0; left: 0;">
+            <img class="logo" src="https://mgl.gogo.mn//newsn/v4/images/author.df8ba556.svg" width="30" alt="" />
+            <p class="">
+              Оросын дунд сургуулиудад цэргийн хичээл зааж байна
+            </p>
+          </div>
+        </div> 
   </section>
-  <!-- ----------section3------------ -->
+
 
   <section class="flex s3 container">
     <div class="column flex containerS3">
@@ -362,12 +355,7 @@
               хөдөлмөр, бэлтгэл ордог төрөл. Тэр тусмаа циркийн ертөнцөд уран
               нугараачид
             </p>
-            <div class="flex center comment">
-              <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
-              <p>34</p>
-              <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
-              <p>53</p>
-            </div>
+
           </div>
         </article>
         <article class="flex">
@@ -634,7 +622,7 @@
 
     <hr />
 
-    <aside class="flex column gap-30">
+    <aside class="flex aside column gap-30">
       <h2>&#x1F984;Онцлох мэдээ&#x1F984;</h2>
 
       <div class="article">
@@ -710,198 +698,278 @@
       <div class="bgColorBeige flex column gap-50">
         <div>
           <h2>&#128293;Тренд мэдээ</h2>
-          <div class="borderBottomDashed flex ctr-row">
-            <h6>1</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+          <div class="borderBottomDashed flex  ctr-row">
+            <div class="asideHover flex ">
+              <h6>1</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>2</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>2</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>3</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>3</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>4</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>4</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>5</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>5</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>6</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>6</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>7</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>7</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>8</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>8</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>9</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+
+              <h6>9</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div>
           <div class="borderBottomDashed flex ctr-row">
-            <h6>10</h6>
-            <div>
-              <p>
-                Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
-                тариа, дасгал хөдөлгөөнөөр давна
-              </p>
-              <div>32 5</div>
+            <div class="asideHover flex ">
+              <h6>10</h6>
+              <div>
+                <p>
+                  Д.БЭХБОЛД: Ковидын дараах цус өтгөрөлтийг эслэг өндөр үр
+                  тариа, дасгал хөдөлгөөнөөр давна
+                </p>
+                <div class="flex center comment">
+                  <img src="./arrow-invite-join-share-sharing-icon-15.png" width="20px" height="20px" alt="" />
+                  <p>34</p>
+                  <img src="https://mgl.gogo.mn/newsn/v4/images/comment-light.bd31b019.svg" width="15" />
+                  <p>53</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </aside>
   </section>
-  <!-- ----------section4------------ -->
+
   <section class="s4 flex container column">
     <h2>&#127908;Ярилцлага</h2>
-    <div class="right flex gap-30 column">
-      <div class="gap-30 flex">
-        <div class="relative">
-          <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
-            src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
-            class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
-            data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            lazy="loaded" />
-          <div class="absolute">
-            <p>
-              Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
-              үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
-            </p>
-          </div>
-        </div>
-        <div class="relative">
-          <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
-            src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
-            class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
-            data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            lazy="loaded" />
-          <div class="absolute">
-            <p>
-              Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
-              үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="flex gap-30">
+      <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
+        src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+        data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
+        class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
+        data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+        lazy="loaded" />
 
-      <div class="gap-30 flex">
-        <div class="relative">
-          <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
-            src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
-            class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
-            data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            lazy="loaded" />
-          <div class="absolute">
-            <p>
-              Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
-              үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
-            </p>
+      <div class="right flex gap-30 column">
+        <div class="gap-30 flex">
+          <div class="relative">
+            <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
+              src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
+              class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
+              data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              lazy="loaded" />
+            <div class="absolute">
+              <p>
+                Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
+                үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
+              </p>
+            </div>
+          </div>
+          <div class="relative">
+            <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
+              src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
+              class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
+              data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              lazy="loaded" />
+            <div class="absolute">
+              <p>
+                Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
+                үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="relative">
-          <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
-            src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
-            class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
-            data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
-            lazy="loaded" />
-          <div class="absolute">
-            <p>
-              Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
-              үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
-            </p>
+        <div class="gap-30 flex">
+          <div class="relative">
+            <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
+              src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
+              class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
+              data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              lazy="loaded" />
+            <div class="absolute">
+              <p>
+                Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
+                үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
+              </p>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img alt="Н.Орчлон: Амжилт бол албан тушаал биш. Үндсэн мэргэжлээ чадварлаг эзэмшсэн байх нь чухал"
+              src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              data-srcset="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg 2x"
+              class="home-interview-img home-interview-small-img uk-border-rounded uk-transition-scale-up uk-transition-opaque uk-width-1-1"
+              data-src="https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2023/08/309762-18082023-1692338241-579524689-DSC026741.jpg"
+              lazy="loaded" />
+            <div class="absolute">
+              <p>
+                Б.Хос-Эрдэнэ: Одоо л өөрчлөгдөхгүй бол насан туршдаа хэвээрээ
+                үлдэнэ гээд мөрөөдлөө хөөхөөр шийдсэн
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
-  <!-- ----------section5------------ -->
+
   <section class="s5 flex container column">
     <h3>GoGo ХЭВ МАЯГ</h3>
     <div class="flex main">
@@ -1003,7 +1071,7 @@
       </div>
     </div>
   </section>
-  <!-- ----------section6------------ -->
+
   <section class="flex column container s6">
     <h3>Технологи</h3>
     <div class="flex main">
@@ -1125,7 +1193,7 @@
     </div>
   </section>
 
-  <!-- ----------section6------------ -->
+
 
   <section class="s7 flex column">
     <h3>Комик</h3>
@@ -1154,7 +1222,7 @@
       </div>
     </div>
   </section>
-  <!-- ----------section8------------ -->
+
   <section class="s8 flex ctr-row">
     <div class="container">
       <h3>Үзэх</h3>
