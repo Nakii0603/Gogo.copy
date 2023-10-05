@@ -10,7 +10,7 @@
   width: 100px;
   color: white;
 }
-
+body {font-size: calc(18px + (20 - 1) * (( 10vw - 300px) / (1600 - 300)));}
 /* <-------------------------------> */
 .s1-img {
   width: 570px;
@@ -72,7 +72,8 @@
   width: 200px;
   height: 230px;
 }
-.story-card{
+
+.story-card {
   overflow-x: scroll;
   width: 100%;
 }
@@ -96,6 +97,7 @@
   height: 120px;
   transition: 500ms;
 }
+
 .story .logo {
   width: 30px;
   height: 30px;
@@ -139,7 +141,7 @@
 }
 
 .date {
-  width: 800px;
+  max-width: 800px;
   margin-bottom: 20px;
   justify-content: space-between;
 }
@@ -150,16 +152,12 @@
 
 hr {
   margin: 0 20px;
-}
+} 
 
 .hoverloh img {
   width: 280px;
   height: 180px;
   padding-right: 30px;
-}
-
-.s3 article h3 {
-  font-size: 19px;
 }
 
 .moreNews {
@@ -202,6 +200,7 @@ aside .asideHover p {
   width: 90%;
 }
 
+
 /* <-------------s4------------------> */
 .s4 .relative :last-child {
   bottom: 0;
@@ -209,14 +208,10 @@ aside .asideHover p {
 }
 
 .s4 .right img {
-  width: 255px;
-  height: 180px;
-}
-
-.s4 .talk {
   width: 100%;
-  justify-content: space-between;
+  height: 100%;
 }
+ 
 
 .s4 .talk .right img {
   width: 248px;
@@ -245,10 +240,7 @@ aside .asideHover p {
 }
 
 /* <-------------s6------------------> */
-.card-img {
-  width: 280px;
-  height: 360px;
-}
+
 
 .s6 .card {
   width: 280px;
@@ -262,14 +254,10 @@ aside .asideHover p {
 }
 
 /* <-------------s7------------------> */
-.comicCard {
-  width: 570px;
-  height: 330px;
-}
-
 .comicCard img {
-  width: 570px;
-  height: 330px;
+  width: 100%;
+  min-width: 150px;
+  min-height:100px ;
 }
 
 /* <-------------s8------------------> */
@@ -280,7 +268,7 @@ aside .asideHover p {
 }
 
 .card-img-8 {
-  width: 260px;
+  width: 100%;
   height: 170px;
 }
 
@@ -299,12 +287,17 @@ footer a {
 }
 
 @media screen and (max-width:1200px) {
+  article h3{
+    font-size: calc(1px + 1.5vw);
+}
   .container {
     width: calc(100vw - 120px) !important;
   }
+
   .bar {
     display: none !important;
   }
+
   nav .right {
     width: 350px;
   }
@@ -312,38 +305,91 @@ footer a {
   nav .left {
     width: 200px !important;
   }
+
   .s1 {
     display: none;
   }
-  .s2 .story img{
-    width: 340px !important;
+
+  .s2 .story img {
+    width: 300px !important;
+
   }
-  .s2 .story .logo{
-    justify-content: start ;
+
+  .s2 .story .logo {
+    justify-content: start;
   }
-  .story--card-information .logo{
+
+  .story--card-information .logo {
     align-items: start;
   }
- .story{
-    min-width: 340px!important;
+
+  .story {
+    min-width: 300px !important;
+
   }
+
   aside {
     display: none !important;
   }
-hr{
-  display: none;
+
+  hr {
+    display: none;
+  }
+
+  .date {
+    max-width: 700px;
+  }
+  .s3 article {
+    max-width: 700px;
+  }
+
+  .s3 .hoverloh img {
+    width: 260px;
+    height: 160px;
+  }
+  .s3 article .left {
+    width: 65%;
+
+  }
+  .s3 .banner{
+    width: 700px;
+  }                      
+  .s4 > :last-child  {
+    flex-wrap: wrap;
+  }
+  .home-interview-img {
+    width: 100%;
+  }
 }
 
-}
 @media screen and (max-width:900px) {
-  .s2 .story img{
-    width: 380px !important;
-    
+  .s2 .story img {
+    width: 340px !important;
+
+
   }
- .story{
-    min-width: 380px!important;
+  article h3{
+    font-size: calc(1px + 2.5vw);
+}
+  .story {
+    min-width: 340px !important;
+
   }
+
   aside {
     display: none !important;
   }
+}
+
+@media screen and (max-width:450px) {
+  .comicCard img{
+    height: 100px;
+  }
+  .card-img-8 {
+    width: 100%;
+    height: 100px;
+  }
+  article h3{
+    font-size: calc(1px + 4vw);
+}
 }

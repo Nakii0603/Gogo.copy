@@ -87,3 +87,9 @@ a {
 .container {
     width: 1170px;
 }
+.wrap {
+    flex-wrap:wrap;
+}
+h3{
+    font-size: calc(1px + 1vw);
+}
