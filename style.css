@@ -111,6 +111,9 @@ body {font-size: calc(18px + (20 - 1) * (( 10vw - 300px) / (1600 - 300)));}
   border-radius: 30px;
   background-color: rgb(199, 198, 198);
 }
+.s3 {
+  margin: auto;
+}
 
 .s3 article {
   align-items: center;
@@ -381,7 +384,7 @@ footer a {
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:500px) {
   .comicCard img{
     height: 100px;
   }
@@ -390,6 +393,27 @@ footer a {
     height: 100px;
   }
   article h3{
-    font-size: calc(1px + 4vw);
+    font-size: calc(1px + 3vw);
+}
+.s3 article {
+  max-width: 500px;
+}
+
+.s3 .hoverloh img {
+  width: 200px;
+  height: 150px;
+}
+.s3 article .left {
+  width: 60%;
+
+}
+.s3 .banner{
+  width: 500px;
+}     
+.date {
+  max-width: 500px;
+}
+.date .button {
+  width: 70px;
 }
 }
