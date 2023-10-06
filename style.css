@@ -174,7 +174,9 @@ aside .article {
   width: 290px;
   height: 300px;
 }
-
+aside {
+  width: 300px;
+}
 aside .article .card-img-aside {
   width: 290px;
   height: 170px;
@@ -276,7 +278,7 @@ aside .asideHover p {
 }
 
 .start {
-  justify-content: space-between;
+  justify-content: start;
 }
 
 /* <-----------footer----------------> */
@@ -384,7 +386,7 @@ footer a {
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:430px) {
   .comicCard img{
     height: 100px;
   }
@@ -396,24 +398,54 @@ footer a {
     font-size: calc(1px + 3vw);
 }
 .s3 article {
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .s3 .hoverloh img {
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 100px;
 }
 .s3 article .left {
   width: 60%;
 
 }
 .s3 .banner{
-  width: 500px;
+  width: 400px;
 }     
 .date {
-  max-width: 500px;
+  max-width: 400px;
 }
 .date .button {
-  width: 70px;
+  width: 50px;
+}
+.date p{
+  font-size: 10px;
+}
+.s8 p {
+  font-size: 10px;
+}
+.s8 .gap-30 {
+  gap: 0px;
+}
+.s8 .card-img-8{
+  width: 50px;
+  height: 60px;
+}
+.s8 .comment img{
+  width: 10px;
+}
+nav .left img {
+  width: 80px;
+
+}
+.s4 p{
+  font-size: 8px;
+}
+.moreNews {
+  width: 400px;
+}
+footer a{
+  font-size: 10px;
+  
 }
 }
